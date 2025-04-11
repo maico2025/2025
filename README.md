@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+    <link rel="icon" type="Logo" href="img/Logo.png">
+</head>
+
+
+
+<body>
+    
+<header>  
+    <div class="container__cabecalho">
+       <section class="container__dentro_do_cabecalho">
+        
+        <div class="container_caixa">
+            <img src="img/Logo.png" alt="alura">
+        </div>
+            <div id="busca">
+
+                 <input class="container__caixa__procurar" id="txtBusca" type="search" placeholder="O que deseja encontrar?">
+            </div>
+             
+             
+       </section> 
+    </div>
+     
+        
+</header>
+
+    <form class="container__inscrecao">
+        <div class="container__login">
+            
+                 <h3 class="container__titulo">Iniciar Sessão</h3>
+                  <label for="email">E-mail</label>
+                  <input class="caixa" type="email" placeholder="Digite seu E-mail" autofocus="true"/>
+                  <label for="password">Senha</label>
+                  <input class="caixa" type="password" placeholder="Digite sua Sennha">
+                  <a class="container__botao" href="#">Entrar</a>
+        </div>
+            
+    </form>
+<footer>
+    <div class="principal__">
+
+    <section>
+             <img src="img/Logo.png" alt="alura">
+
+    </section>
+ 
+            <div class="container__formulario">
+                      <a class="pa" href="#">Quem somos nós</a>
+                      <a class="pa" href="#">Política de privacidade</a>
+                      <a class="pa" href="#">Programa fidelidade</a>
+                      <a class="pa" href="#">Nossas lojas</a>
+                      <a class="pa" href="#">Quero ser franqueado</a>
+                      <a class="pa" href="#">Anuncie aqui</a>
+             </div>    
+             
+                <form class="formulario__">
+                    <h3>Fale conosco</h3> 
+                          <input class="caixa__final" type="text" placeholder="Nome">
+                          <input class="caixa__final_" type="text" placeholder="Escreve Sua mensagem">
+                <a class="Enviar" href="#">Enviar mensagem</a>
+                
+                  </form>
+</footer>
+<p class="paragrafo">Desenvolvido por Maico J Alves de Tal 2025</p>
+
+
+
+    </div>
+
+</body>
+</html>
